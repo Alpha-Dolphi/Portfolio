@@ -1,0 +1,142 @@
+.sidebar-wrap {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  height: max-content;
+  width: 90px;
+  z-index: 1000;
+  border-radius: 4rem;
+}
+
+.sidebar-wrap svg {
+  fill: #00bbff;
+}
+
+svg * {
+  stroke: #00bbff;
+}
+
+.sidebar-wrap.active {
+  background: radial-gradient(circle, white 30%, var(--light-text-color) 60%);
+  box-shadow: 1px 1px 30px #111111;
+  transition: box-shadow 0.3s;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+.sidebar-wrap.active svg {
+  backdrop-filter: blur(0px);
+}
+
+.menu-bars svg {
+  position: absolute;
+  color: var(--dark-background-color);
+  width: 57px;
+  height: 57px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 0.5rem;
+}
+
+.menu-bars {
+  cursor: pointer;
+}
+
+.projects svg {
+  width: 30px;
+  height: 30px;
+}
+
+.contacts svg {
+  width: 34px;
+  height: 34px;
+}
+
+.sidebar-wrap.active .menu-bars svg {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.menu-bars:hover {
+  scale: 1.1;
+  color: black;
+}
+
+.menu-bars {
+  /* margin: 5px; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  transition: 300ms;
+}
+
+.nav-menu {
+  transition: 50ms;
+  opacity: 0;
+}
+
+.nav-menu.active {
+  opacity: 100;
+}
+
+.nav-menu.inactive {
+  pointer-events: none;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+  padding-bottom: 1rem;
+  margin-top: -0.5rem;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: var(--dark-text-color);
+  font-size: 35px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  transition: ease-out 250ms;
+  will-change: transform;
+}
+
+.nav-text a:hover {
+  background-color: var(--dark-background-color);
+  color: var(--light-text-color);
+  scale: 1.05;
+}
+
+.nav-menu-items {
+  width: 100%;
+  padding: 0;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-toggle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
