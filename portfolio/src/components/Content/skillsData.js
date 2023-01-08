@@ -1,10 +1,10 @@
-import HTMLLogo from "../../assets/skills/HTML_logo.jpg";
-import cssLogo from "../../assets/skills/css_logo.png";
-import jsLogo from "../../assets/skills/Javascript_Logo.png";
-import jqLogo from "../../assets/skills/jQuery_logo.jpg";
+import HTMLLogo from "../../assets/skills/html.svg";
+import cssLogo from "../../assets/skills/css.svg";
+import jsLogo from "../../assets/skills/js.svg";
+import jqLogo from "../../assets/skills/jQuery.svg";
+import webpackLogo from "../../assets/skills/webpack.svg";
+import gitLogo from "../../assets/skills/git.svg";
 import REACTLogo from "../../assets/skills/react.svg";
-import webpackLogo from "../../assets/skills/webpack_logo.png";
-import gitLogo from "../../assets/skills/git_logo.jpg";
 import reduxLogo from "../../assets/skills/redux.svg";
 
 const skills = [
