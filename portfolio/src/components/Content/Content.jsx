@@ -25,7 +25,7 @@ export default function Content() {
           <p>
             Здравствуйте! Меня зовут Богдан, мне 20 лет, и я начинающий
             frontend-разработчик. Недавно я закончил два курса по Javascript и
-            React, что дало мне уверенную теоретическую базу, и укрепило моё
+            React, что дало мне уверенную теоретическую базу и укрепило моё
             желание развиваться в этой области.
           </p>
           <p>
@@ -142,16 +142,16 @@ export default function Content() {
                 <AiFillGithub />
               </button>
             </form>
-            <form action="tel:89851985677" method="get">
+            <a href="tel:89851985677">
               <button>
                 <AiOutlinePhone />
               </button>
-            </form>
-            <form action="mailto: djedai@list.ru" method="get">
+            </a>
+            <a href="mailto: djedai@list.ru">
               <button>
                 <MdOutlineMail />
               </button>
-            </form>
+            </a>
             <form action="https://telegram.me/dolphio" method="get">
               <button>
                 <BsTelegram />
