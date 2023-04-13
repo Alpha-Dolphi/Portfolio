@@ -1,27 +1,18 @@
-<h1 align="center">Welcome to Books Search App 👋</h1>
+<h1 align="center">Welcome to my Portfolio 👋</h1>
 
-![npm version](https://img.shields.io/badge/npm-v9.6.2-blue)
-![TypeScript version](https://img.shields.io/badge/TypeScript-v5.0.2-green)
 ![React version](https://img.shields.io/badge/React-v18.2.0-orange)
-![MobX version](https://img.shields.io/badge/MobX-v6.9.0-purple)
 
 ---
 
-> A simple to use Books Search App created with React, TypeScript, Redux Toolkit and Axios powered by Google Books API. This is a testing task for a company Future. The requirements for this task can be found [here](https://docs.google.com/document/d/1fxxt1ZZUhrGsiUuizgVevYWPOs_bPVvpXUFT3BSFQAw/edit).
-
-## Main Features
-
-- **Search**: You can search for books by keyword, sorting option, and other parameters.
-- **Results**: A paginated list of search results will be displayed with book cover images, title, author, and other details.
-- **Book Details**: You can click on a book to view more details, such as the book description, reviews, and related books.
+> A portfolio telling about my experience and showcasing all my relevant projects with a short description.
 
 ## Preview
 
-### ✨ [Live Demo](https://candid-mousse-31b9c0.netlify.app/)
+### ✨ [Live Demo](https://effulgent-brigadeiros-8b54e7.netlify.app/)
 
 Here's a preview of my project in action:
 
-![Screenshot of my project](https://lh3.googleusercontent.com/v8J3J-M5cCMl4qugg-Ovp3Br3FoSdcIWcrc2VmHa-fmdxg2nJMFtEHHQ6yuKmkXjmoZ8FnHB8rVZaJH-_Pf01Wp_rwH2Fp3BHisaIAXOq-mF4NlCnY-Sudiso3sawzS0vZGD-uIJZvwFXCpt3uowvFDY8akmWZRBSjWvGUcNVauvLew_tdcJEXMN-TmnUgf53lxROVXO6T8-O0EGhwE6XGaHPiAlMH4MA4-kMsz3_zWNbBvwJ6V4vxHXSLU_5lhpZws17egXQRnLzcIAL8hw_ynREm0mlTxPbUhbnBonhgMDhaxjmitrvcJTfKhBsv_CnpsXM2baCMRErXNHX6fagYkEJ0w4LLQDa0VW2yvlSXBFUOTNqCC82AQI6BmGG96GRUO5D3OOkzxonA-9sJi8b67HPwxLO_27VVogI-ZQkSiStQjyyE590ukVPxrdulrD3UncVdzAGlCWI0qC0WhqSkkGBw438eaLMy94I7xGlscOXnupydmRegIqM2baJMm8blRo-GlP_L46d75-k9P8l-Xw9O1Uy2uV9VPxm2-ZmyWUmR32-N3wwL4plzjYNRm13I-g75PoxJhKMAd7VOYjLxcBQYq9a0oEtY9u18vTM-nY4ABgbBk3B9J9-ZKgzTKQKAtdsLYF9RQikrT42FXaphDoSO8pR7Rl9iPU4pIxaW1Ayhb8r00j1ab-QPgKpF7_vGw-1A13waxUWwm0SALXl5R8EX-7eK5VWq-7dgtPMV81jttEUs8fkIOQAzH25wBfORSR7yNG07qgEWG6o0vqUt2eXi1tGndIpSgc0Rg6JbobJEVumAhgAUg6x9t8LVLV9rvonfpi2fr0jNWNEIGlkAOuBkExzKw3tEfUmbWHvE0uh_i9KsgdDrqyOXGBdgppBLw0ZPKWnSJfeS48mETSzmbXZRqokpbmTieA3F7z5CuHpQn_CadcB4P-kWXp9SWpbce4aM1rykg7tyeBvjtg=w1147-h777-s-no?authuser=0)
+![Screenshot of my project](https://lh3.googleusercontent.com/qN-cFWx6eY8KOtja2TqygmSw8nq6kLHMfz_hYkv2BR8dOAlaL_PuMQFCKllKNk2sYdecivxSIWk1LLbJo8G9SMz6i_wXvLjY-LdCto_FcKSh5EO_3rqM7xxjB7R4vzQZKqQRIwKaQRZ2yeNM-MQEgm-JByO9jarxrourILI1TsC42_XxiScIXNhvTwdsmYjFiyKJyP5CF88h7xePBYZvcue6eq3_EQcOgteaHHb6JuHzR4ls594r8Ntaz1gRl13cnl05fCDrMD92Twvv8GVh-B4m2uA-dz4xfcYFHa0KSZ6hA0Gh5j6sJV9TqUVquMtdsQwOC1NyYmPHZLoclIHUPdqYrjxv7lNol3Gmj2RtzipHvJWmX9jc0iey8Eu0jlg-I8sPSTk0rDqMQ1mblgGpsr7t1nQ5pFT3B2QpHLFcT-KRXLJISpp8x0-uoY27G5PQ678ud2AR_52gm1h4RRX5AH_8G7Xk_2DGkqAs8YKiI7kgYifyspfW5S4h_8d8jMJY4WsOU5_qF2qJIXsdHj-5wmyfgtX0p2BMmzXwxTx00dFWQuQgE6mmyG13Xjeh7V11GUzBqca1U3SqxHkgGLzGuuZCevDoSHgpNdC_N_ghE9Ow4oDQqY2HgnaSUr7rwVSb_eTqS2XA6YOlYnAEThhx-seLwW5ZRpMugshKCwqKY0RkatYLa6B9swxejyT2CoXT3YpBMXysOMuNE8OUimid2nG84f4ih2J7ybYhGIYywA1ZziBAjC7lrNZ-TtuF8G1gt7Ht-zsOgdho5wLf4QWyl9EWFXlcGVaYHeqILkn8QYCqi-z6aHBQuO1HaRGgkZgPm4938BYMJ-7IjtlXQWoZxu7eTfBGUjEpkHmDO2qYwjEvjDuNAP0Qpr65mi36jhPXp6nB329YqE9g2-tNsWIpqPJtBAn8FLFb-JOl7mBlb9IqfnA59J7tBnYUvVO7zTt398ydwanNeDRZD_jhEyA3=w827-h782-s-no?authuser=0)
 
 ## Install
 
